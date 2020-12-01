@@ -1,5 +1,10 @@
 body  {
-  background-image: url("https://i.pinimg.com/originals/40/a0/7c/40a07cca407a4cc74b6fe8cbab9382a6.jpg");
+  background-repeat: no-repeat;
+  background-image: url("https://www.hindugodwallpaper.com/downloadfiles.php?id=3813");
   background-color: #cccccc;
   align: center;
+}
+
+div {
+  align-self: center;
 }
