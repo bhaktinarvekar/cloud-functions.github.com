@@ -1,10 +1,50 @@
 body  {
   background-repeat: no-repeat;
-  background-image: url("https://www.hindugodwallpaper.com/downloadfiles.php?id=3813");
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/412/447/801/texture-simple-background-wallpaper-preview.jpg");
   background-color: #cccccc;
   align: center;
+  background-size: cover; 
 }
 
 div {
-  align-self: center;
+  align-items: center;
+  margin-left: 18%;
+  margin-right: 18%
+}
+
+div.card {
+  width: 550px;
+  height: 600px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  background-color: #e6fff2
+}
+
+div.card-header {
+	font-size: 40px;
+	width: 500px;
+}
+
+div.card-body {
+	margin-top: 10%;
+}
+
+input {
+	width: 300px;
+	height: 30px;
+	padding: 10px;
+}
+
+button {
+  margin-top: 10%;
+  background-color: #00664d;
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
